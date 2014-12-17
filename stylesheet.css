@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+	font-family: "helvetica"
+}
+
+
+#header {
+	background-color: #63b82e;
+	height: 9%;
+}
+
+#heading {
+	font-size: 2.5em;
+	font-family: "lucida console";
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#login_area {
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding: 10pt;
+	font-size: 1.5em;
+}
+
+.form_input {
+	font-size: 28px;
+	border-radius: 5px;
+	border: 1px solid #A0A0A0;
+	color: #606060;
+	margin-bottom: 0.5em;
+	background-color: #F0F0F0;
+}
+
+#sign_up {
+/*
+	4d4d4d
+*/
+}
+
+.labels {
+	display: block;
+}
+
+.button_green{
+	background-color: #63b82e;
+	color: #FFFFFF;
+	font-size: 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 12px;
+}
