@@ -2,7 +2,6 @@
 	<head>
 		<title>NofityHW</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		<script src="https://apis.google.com/js/client:platform.js" async defer></script>
 	</head>
 
 	<body>
@@ -18,18 +17,24 @@
 			</p>
 		</div>
 
-		<div id="signInArea">
-			<p>Sign in with Google</p>
-			<span id="signinButton">
-				<span
-				    class="g-signin"
-				    data-callback="signinCallback"
-				    data-clientid="168696361554-8ckjkg5447vlthi73rd9s32cb3o89bv7.apps.googleusercontent.com"
-				    data-cookiepolicy="single_host_origin"
-				    data-scope="profile">
-			  	</span>
-			</span>
+		
+		<div id="sign_up">
+				<button id="submit_form" type="submit" class="button_green">Sign Up</button>
+				<span>Already have an account? <a href="login.php">Sign in here</a></span>
+		</div>
+
+		<div id="login_area">
+			<h2 id="sign_up">Sign up</h2>
+			<label class="labels">First name</label> 
+			<input type="text" class="form_input" id="first_name"></br>
+			<label class="labels">Last name</label>
+			<input type="text" class="form_input" id="last_name"></br>
+			<label class="labels">Email</label>
+			<input type="text" class="form_input" id="last_name" size="20">
+			<label class="labels">Password</label>
+			<input type="password" class="form_input" id="last_name" size="20"></br>
+
+			<button id="submit_form" type="submit" class="button_green">Create New Account</button>
 		</div>
 	</body>
-
 </html>

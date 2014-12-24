@@ -5,7 +5,6 @@ body {
 	font-family: "helvetica"
 }
 
-
 #header {
 	background-color: #63b82e;
 	height: 9%;
@@ -22,22 +21,43 @@ body {
 	text-decoration: none;
 }
 
-#login_area {
+#signup_area, #login {
 	width: 30%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 20px;
+	margin-top: 15px;
 	padding: 10pt;
-	font-size: 1.5em;
+}
+
+
+
+#form_controls {
+	padding: 0;
+	margin-top: 30px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#login {
+	width: 30%;
+	margin-top: 50px;
+	font-size: 18pt;
+	border-radius: 5px;
+}
+
+#login label {
+	font-size: 16pt;
+	text-align: left;
 }
 
 .form_input {
-	font-size: 28px;
 	border-radius: 5px;
+	background-color: #F0F0F0;
+	font-size: 18pt;
 	border: 1px solid #A0A0A0;
 	color: #606060;
 	margin-bottom: 0.5em;
-	background-color: #F0F0F0;
 }
 
 #page_message, #signInArea {
@@ -56,8 +76,7 @@ body {
 	display: block;
 }
 
-.button_green{
-	background-color: #63b82e;
+.button_green, .button_normal{
 	color: #FFFFFF;
 	font-size: 20px;
 	border: none;
@@ -66,11 +85,21 @@ body {
 	padding: 12px;
 }
 
+.button_normal {
+	background-color: #F0F0F0;
+	color: #000000;
+	font-size: 15px;
+}
+
+.button_green {
+	background-color: #63b82e; 
+}
+
 #page_message {
 	text-align: center;
 	font-size: 2em;
 	width: 80%;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
 }
