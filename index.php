@@ -1,5 +1,8 @@
 <?php
 include("common.php");
+if (isset($_GET["error"])) {
+	print "Did not enter everything!";
+}
 ?>
 		<div id="page_message">
 			<p>
